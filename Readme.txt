@@ -12,11 +12,6 @@ Favicon:
 http://poetsofthefall.com/
 
 Content:
-Pretty poems of Poets of the Fall
-poetsofthefall.com
+Pretty poems from Poets of the Fall
 
-To try (for Linux):
->Configure apache
->Place this folder (say YourFolder) in /var/www/html/
->Go to your web browser and type in the following in the url:
-localhost/YourFolder/Thunderstone.html
+Checkout the repository 'AmadoFurniturePractice' for setup instructions
