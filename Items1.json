@@ -1,0 +1,58 @@
+{
+"items": [
+    {
+    "Name":"Modern Chair",
+    "Price":"180",
+    "Img":"Img/productImg/1.jpg",
+    "Desc":"See the puppet master laugh, astride a pale horse. And take another photograph, for selfie intercourse. Reading out the epitaph of our pointless wars. For love we will tear us down"
+    },
+    {
+    "Name":"Minimalistic Plant Pot",
+    "Price":"180",
+    "Img":"Img/productImg/2.jpg",
+    "Desc":"What you eclipse makes your measure. What you leave reaches for you in your stead. Taking flaws for a gamble to get ahead. No remorse for the trouble spread. In the revolution"
+    },
+    {
+    "Name":"Modern Chair B",
+    "Price":"180",
+    "Img":"Img/productImg/3.jpg",
+    "Desc":"We took a gamble with this love, like sailing to the storm. With the waves rushing over to take us, we were battling against the tide. You were my beacon of salvation, I was your starlight"
+    },
+    {
+    "Name":"Plant Pot",
+    "Price":"18",
+    "Img":"Img/productImg/4.jpg",
+    "Desc":"There’s yet life in these words I speak for peace of mind and our release,And you can have what you want if you want it like you need to breathe,like you need to breathe, like you need to breathe. Embrace reality"
+    },
+    {
+    "Name":"Night Stand",
+    "Price":"180",
+    "Img":"Img/productImg/5.jpg",
+    "Desc":"Tell me this, is it lonely in the shadow of a masquerade for life you hide behind. What’s the deal with your reasons to run away and let your feelings leave you undefined. I know the way you go…"
+    },
+    {
+    "Name":"Small Table",
+    "Price":"320",
+    "Img":"Img/productImg/6.jpg",
+    "Desc":"You’ve been going out of way to agree. Like you’ve been rubbing yourself all wrong, just to be somebody else’s genie. Catering to your disaster’s every need. Waiting to finally be set free"
+    },
+    {
+    "Name":"Modern Rocking Chair",
+    "Price":"318",
+    "Img":"Img/productImg/7.jpg",
+    "Desc":"If I have been thoughtless, let me know. I can take a hint you know, though I’m a little slow. Just don’t keep it in you, lest it take root and grow. The bottom line here’s I love you so"
+    },
+    {
+    "Name":"Home Deco",
+    "Price":"318",
+    "Img":"Img/productImg/8.jpg",
+    "Desc":"This day will die tonight and there ain’t no exception. Why should I wait for nothing to wait for. I won’t cry for my solitude, lay my head and dream of you. And hope that you’ll come knocking on my door. And maybe tomorrow is a better day"
+    },
+    {
+    "Name":"Metallic Chair",
+    "Price":"318",
+    "Img":"Img/productImg/9.jpg",
+    "Desc":"We can see where it leads. It’s like you can’t, can’t kill the monster that feeds on you. No matter what you do it seems to get you every time. And that’s a predicament if I know anything"
+    }
+]
+}

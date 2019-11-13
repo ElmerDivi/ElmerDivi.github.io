@@ -1,0 +1,51 @@
+
+.headFav {
+    padding: 3%;
+}
+
+.cardFav {
+    margin:3%;
+    display:inline-block;
+    position:relative;
+    /*border: 1px solid black;*/
+    width: 22.5vw;
+    height:34vw;
+}
+
+img[alt*='prodImgFav'] {
+    position:absolute;
+    height:80%;
+    width:100%;
+}
+
+/* For effect's sake */
+img[alt*='prodImgFav']:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.cardFavDown {
+    position:absolute;
+    top:80%;
+    margin-top: 1%;
+    /*border:1px solid saddlebrown;*/
+    width:98%;
+}
+
+.cardFavDown span:first-child {
+    display: block;
+    width: 25%;
+    border-top: 0.2vw solid #fbb710;
+    padding-top:2%;
+    font-size:140%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    z-index:1;
+    color:#fbb710;
+}
+
+img[alt*='cartFav'] {
+    height:1.5vw;
+    float: right;
+    cursor: pointer;
+}

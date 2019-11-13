@@ -1,0 +1,215 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+}
+
+.smallHead {
+    text-align: center;
+    padding: 5% 8%;
+    display: none;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 3;
+    /*
+    border: 8px solid black;
+    box-shadow: 0vw 1vw 16vw  grey;
+    */
+}
+
+img[alt='lgo2'] {
+    float: left;
+}
+
+img[src*='bars'] {
+    float: right;
+    height: 6.5vw;
+    cursor: pointer;
+}
+
+/* Nav-bar Arena */
+
+.navbar {
+    width: 24%;
+    /*border: 0.1vw solid saddlebrown;*/
+    position: absolute;
+    top: 0;
+}
+
+.navbar2 {
+    margin-left: 23%;
+    /*
+    border: 0.1vw solid black;
+    overflow-y: auto;
+    */
+}
+
+img[alt*='Logo'] {
+    display: block;
+    margin-top: 24%;
+    margin-bottom: 42%;
+    height: 4vw;
+    /*
+    height: 8%;
+    */
+}
+
+/*
+.navbar span:hover {
+    color: #fbb710;
+    cursor: pointer;
+}
+*/
+
+.navlinks span:hover, .subnav span:hover,.subnav a:hover {
+    color: #fbb710;
+    cursor: pointer;
+}
+
+.navlinks span {
+    /*border: 1px solid black;*/
+    margin-top: 16%;
+    font-family: courier;
+    display: block;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+
+/* Buttons */
+.buttoNav {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    /*border: 0.1vw solid black;*/
+}
+
+.buttoNav span {
+    border: 0.1vw solid black;
+    color: white;
+    margin-bottom: 5%;
+    background-color: black;
+    padding: 5%;
+    width: 60%;
+    display: block;
+    cursor: pointer;
+    font-size: 110%;
+    transition: background-color 0.4s,border 0.4s;
+}
+
+.disC {
+    background-color: #fbb710 !important;
+    border: 0.1vw solid #fbb710 !important; 
+}
+
+/* Sub Navi */
+.subnav {
+    /*border: 0.1vw solid black;*/
+    margin-top: 35%;
+    margin-bottom: 35%;
+}
+
+.subnav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.subnav span {
+    display: block;
+    /*border: 0.1vw solid black;*/
+    margin-bottom: 6%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.subnav img {
+    height: 1.5vw;
+    margin-right: 4%;
+}
+
+/* Links to social net */
+.socio {
+    /*border: 0.1vw solid black;*/
+    margin-top: 6%;
+    margin-bottom: 16%;
+}
+
+.socio img {
+    height: 1.5vw;
+    cursor: pointer;
+    margin-right: 12%;
+}
+
+/* Content */
+
+.content {
+    /*
+    border: 0.1vw solid indigo;
+    min-height: 133%;
+    */
+    margin-left: 24%;
+    min-height: 65vw;
+}
+
+/* Footer */
+
+.footer {
+    border-top: 0.1vw solid #262626;
+    background-color: #262626;
+    color: white;
+    padding: 1.5%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer span {
+    font-family: 'Alex Brush';
+    font-size: 1.6vw;
+}
+
+/* Search Arena */
+
+#searchBar {
+    text-align: center;
+    padding: 5%;
+    background-color: #f5f7fa;
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    /*
+    border: 1px solid black;
+    position: fixed;
+    display: none;
+    top: 0;
+    */
+    /*margin-bottom: 3%;*/
+}
+
+input[name="searchAll"] {
+    width: 70%;
+    padding: 1.5%;
+    border: none;
+    background-image: url('Img/searchSm.png');
+    background-repeat: no-repeat;
+    background-position: 1%;
+    padding-left: 3vw;
+}
+
+.closeBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5% 1%;
+    color: white;
+    background-color: #fbb710;
+    cursor: pointer;
+}

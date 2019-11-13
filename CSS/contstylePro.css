@@ -1,0 +1,196 @@
+
+.contentPro {
+    /*border: 1px solid indigo;*/
+}
+
+.empMargPro {
+    margin-top:18%;
+    /*border:1px solid black;*/
+}
+
+.imgPro {
+    width:39vw;
+    float: left;
+    /*
+    display: inline-block;
+    */
+}
+
+img[alt='prodImgPro'] {
+    width:inherit;
+    height:39vw;
+}
+
+.smallImgPro {
+    margin-top:4.5%;
+    width:inherit;
+    height: 9vw;
+    /*
+    height:17%;
+    border:1px solid black;
+    */
+}
+
+img[alt='prodSmImgPro'] {
+    height: 100%;
+    width: 24%;
+}
+
+img[alt='prodSmImgPro']:hover {
+    border: 0.1vw solid #fbb710;
+    cursor: pointer;
+}
+
+.IRight {
+    float: right;
+    margin-left: 1%;
+}
+
+.ILeft {
+    float: left;
+    margin-right: 1%;
+}
+
+.wordsPro {
+    /*
+    border: 1px solid yellowgreen;
+    display: inline-block;
+    */
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.wordsPro span {
+    display: block;
+}
+
+.wordsPro span:nth-child(1) {
+    width: 15%;
+    border-top: 0.2vw solid #fbb710;
+    color: #fbb710;
+    font-size: 150%;
+    padding-top: 2%;
+    /*margin-top: 13%;*/
+    margin-bottom: 1%;
+}
+
+.wordsPro span:nth-child(2) {
+    font-size: 180%;
+    padding-top: 1%;
+    margin-bottom: 16%;
+}
+
+.descPro {
+    color: #4d4d4d;
+    font-size: 105%;
+    line-height: 190%;
+    /*border: 1px solid powderblue;*/
+    margin-bottom: 16%;
+}
+
+.butPro {
+    font-size: 110%;
+    color: white;
+    background-color: #fbb710;
+    text-align: center;
+    width: 70%;
+    padding: 6%;
+    cursor: pointer;
+}
+
+/* For Video */
+
+.vidPro {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    z-index: 9;
+    text-align: center;
+    /*
+    */
+}
+
+.vidAlgn {
+    color: white;
+    margin-top: 5%;
+    width: 59%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    /*
+    position: relative;
+    */
+}
+
+.vidAlgn span {
+    display: block;
+    float: right;
+    width: 4%;
+    padding: 0.5% 1%;
+    color: white;
+    background-color: #fbb710;
+    cursor: pointer;
+    /*
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    */
+}
+
+.vidAlgn video {
+    max-width: 100%;
+    height: auto;
+    /*
+    width: inherit;
+    */
+}
+
+.playV {
+    height: inherit;
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    /*
+    width: 24%;
+    border: 1px solid indigo;
+    height: inherit;
+    */
+}
+
+.playV img:first-child {
+    width: 100%;
+}
+
+/*
+.playV2{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid yellowgreen;
+}
+
+.playV2:hover {
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+*/
+
+img[alt='playPro'] {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    /*
+    display: inline;
+    height: 100%;
+    width: 100%;
+    */
+}

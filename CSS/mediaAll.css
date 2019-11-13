@@ -1,0 +1,230 @@
+
+@media screen and (max-width: 768px ) {
+
+    /* Navbar and Home*/
+
+    .imgH1 {
+	width : 100%;
+	height: 60vw;
+     }
+
+     .navbar {
+	 width: 35%;
+	 font-size: 150%;
+     }
+
+     .content {
+	 margin-left: 35%;
+	 font-size: 160%;
+	 min-height: 110vw;
+     }
+
+     img[src*='Logo'] {
+	 height: 7vw;
+     }
+
+     .subnav img {
+	 height: 2.5vw;
+     }
+
+     .socio img {
+	 height: 2.5vw;
+     }
+
+     /* Product Pane  */
+
+     .imgPro, .wordsPro {
+	 float: none;
+	 width: 98%;
+	 margin-left: auto;
+	 margin-right: auto;
+     }
+
+     .imgPro {
+	 margin-bottom: 10%;
+     }
+
+     .wordsPro {
+	 margin-bottom: 6%;
+     }
+
+     img[alt='prodImgPro'] {
+	 height: 60vw;
+     }
+
+     .smallImgPro {
+	 height: 12vw;
+     }
+
+     .butPro {
+	 width: 50%;
+     }
+
+     /* Fav Pane */
+
+     .cardFav {
+	 width: 90%;
+	 margin-left: auto;
+	 margin-right: auto;
+         height:60vw;
+	 font-size: 130%;
+     }
+
+     img[alt*='cartFav'] {
+	 height: 3vw;
+     }
+
+     /* Footer */
+
+     .footer span {
+	 font-size: 230%;
+     }
+     
+     /* Cart Pane */
+
+     .tableContainer {
+	 display: none;
+     }
+
+     .proCardCart {
+	 display: block;
+     }
+
+     .headCart {
+	 margin-left: 4%;
+     }
+
+     .tableContainer {
+	 width: 100%;
+     }
+
+     .cartTotal {
+	 width: 100%;
+	 float: none;
+	 margin-left: auto;
+	 margin-right: auto;
+     }
+
+     .qtyBox {
+	 padding: 6%;
+     }
+
+     .butCC {
+	 margin-top: 20.5%;
+     }
+
+     .butCC img {
+         height: 2.5vw !important;
+         width: 2.5vw !important;
+     }
+
+     input[name="searchAll"] {
+	 padding-left: 5vw;
+     }
+}
+
+@media screen and (max-width: 425px ) {
+
+    /*Navbar and Home*/
+
+    .smallHead {
+	display: block;
+    }
+
+    .navbar {
+	width: 70%;
+	font-size: 240%;
+	background-color: white;
+	bottom: 0;
+	/*
+	For some reason
+	bottom is imp for scroll
+	*/
+	position: fixed;
+        z-index: 5;
+	overflow-y: auto;
+	/*
+	display: none;
+	*/
+    }
+
+    .content {
+	margin-left: 0;
+    }
+
+    .imgH1 {
+	height: 90vw;
+	font-size: 180%;
+     }
+
+     /* Footer */
+
+     .footer span {
+	 font-size: 380%;
+     }
+
+     /* Product Pane */
+
+     .imgPro, .wordsPro {
+	 width: 96%;
+     }
+
+     img[alt='prodImgPro'] {
+	 height: 90vw;
+     }
+
+     .smallImgPro {
+	 height: 22vw;
+     }
+
+     .wordsPro {
+	 font-size: 150%;
+     }
+
+     /* fav Pane */
+
+     .contentFav {
+	 font-size: 160%;
+     }
+
+     .cardFav {
+	 height: 105vw;
+	 margin-bottom: 8%;
+	 margin-left: 5%;
+     }
+
+     img[alt*='cartFav'] {
+	 height: 5vw;
+     }
+
+     /* cart Pane */
+
+     .imgCC {
+         height: 30vw;
+         width: 30vw;
+     }
+
+     .contentCart {
+	 font-size: 150%;
+     }
+
+     .cartTotal {
+	 font-size: 110%;
+     }
+
+
+     .butCC {
+	 margin-top: 16.5%;
+     }
+
+     .butCC img {
+         height: 4.5vw !important;
+         width: 4.5vw !important;
+     }
+
+     input[name="searchAll"] {
+	 padding-left: 6.5vw;
+     }
+
+
+}
